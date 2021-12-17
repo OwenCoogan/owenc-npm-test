@@ -1,11 +1,6 @@
-
-//const sortArray = require('sort-array');
-
-import sortArray from 'sort-array'
-
 export const orderWordArray = (array)=> {
-  console.log(array);
-  const sortedArray = sortArray(array);
+  const sortedArray = array.sort();
+  console.log(sortedArray)
   return sortedArray
 }
 

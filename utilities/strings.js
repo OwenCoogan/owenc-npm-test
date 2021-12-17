@@ -1,8 +1,8 @@
-// var slugify = require('slugify');
 import slugify from 'slugify'
 
-export const SlugifyString = (string)=> {
-  return slugify(string)
+export const SlugifyString = (string) => {
+  console.log(slugify(string));
+  return slugify(string);
 }
 
 export const capitalize = (str) => {
