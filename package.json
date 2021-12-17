@@ -9,6 +9,7 @@
   },
   "author": "Owen Coogan",
   "license": "ISC",
+  "type": "module",
   "dependencies": {
     "slugify": "^1.6.4",
     "sort-array": "^4.1.4"
