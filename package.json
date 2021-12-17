@@ -1,0 +1,16 @@
+{
+  "name": "owenc-npm-test",
+  "version": "1.0.0",
+  "description": "Test NPM Package from OwenC",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": ""
+  },
+  "author": "Owen Coogan",
+  "license": "ISC",
+  "dependencies": {
+    "slugify": "^1.6.4",
+    "sort-array": "^4.1.4"
+  }
+}
